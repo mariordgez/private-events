@@ -1,5 +1,6 @@
-<h1>Events#index</h1>
 <p id="notice"><%= notice %></p>
+
+<h1>Privates</h1>
 
 <table>
   <thead>
@@ -13,7 +14,7 @@
   </thead>
 
   <tbody>
-    <% @events.each do |private| %>
+    <% @privates.each do |private| %>
       <tr>
         <td><%= private.Title %></td>
         <td><%= private. %></td>
@@ -29,5 +30,4 @@
 
 <br>
 
-<%= link_to 'New Event', new_event_path %>
-<p>Find me in app/views/events/index.html.erb</p>
+<%= link_to 'New Private', new_private_path %>
